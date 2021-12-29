@@ -62,7 +62,7 @@
                         <li class="nav-border"><a href="#platform">Platforma IPTV</a></li>
                         <li class="nav-border"><a href="#functions">Funkcje dla operatora</a></li>
                         <li class="nav-border"><a href="#system">System IPTV dla hoteli</a></li>
-                        <li class="nav-border"><a href="kontakt.html">Kontakt</a></li>
+                        <li class="nav-border"><a href="#kontakt">Kontakt</a></li>
                      </ul>
                   </div>
                   <div class="col-auto widget-area widget-area_no-margin-last-widget col-md-2 d-flex justify-content-end">
@@ -537,6 +537,73 @@
                    </div>
                   </div>
                 </section>
+               <section class="pt-large" id="kontakt">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-6">
+                        </div>
+                        <div class="col-md-6">
+                           <div>
+                              <form 
+                                 class="form form-contact js-ajax-form bg-light-3 p-small" 
+                                 action="mail.php" 
+                                 method="POST" 
+                                 data-message-success="Dziękujemy. Otrzymasz odpowiedź tak szybko jak to możliwe." 
+                                 data-message-error="Cos poszło nie tak. Nie mozna wysłac formularza :( "
+                                 >
+                                 <div class="row form__row">
+                                    <!-- input #1 -->
+                                    <div class="col-12 col-lg-6 form__col">
+                                       <label class="input-float js-input-float">
+                                       <input class="input-float__input" type="text" name="visitor_name" required="required" data-msg="Wpisz imię i nazwisko"/>
+                                       <span class="input-float__label">Imię i nazwisko</span>
+                                       <span class="form__error"></span>
+                                       </label>
+                                    </div>
+                                    <!-- - input #1 -->
+                                    <!-- input #2 -->
+                                    <div class="col-12 col-lg-6 form__col">
+                                       <label class="input-float js-input-float">
+                                       <input class="input-float__input" type="email" name="visitor_email" required="required" data-msg="Wpisz poprawny adres E-mail"/>
+                                       <span class="input-float__label">Adres E-mail</span>
+                                       <span class="form__error"></span>
+                                       </label>
+                                    </div>
+                                    <!-- - input #2 -->
+                                 </div>
+                                 <!-- input #3 -->
+                                 <div class="row form__row">
+                                    <div class="col form__col">
+                                       <label class="input-float js-input-float">
+                                       <textarea class="input-float__input input-float__input_textarea" name="visitor_msg"></textarea>
+                                       <span class="input-float__label">Twoja wiadomość</span>
+                                       <span class="form__error"></span>
+                                       </label>
+                                    </div>
+                                 </div>
+                                 <!-- - input #3 -->
+                                 <!-- submit -->
+                                 <div class="row form__row">
+                                    <div class="col form__col form__col_submit">
+                                       <button class="button button_icon button_solid bg-accent-1">
+                                       <span class="button__label button__label-normal">
+                                       <span class="button__title">Wyślij</span>
+                                       <span class="button__icon button__icon_after knz-arrow-right"></span>
+                                       </span>
+                                       <span class="button__label button__label-hover">
+                                       <span class="button__title">Wyślij</span>
+                                       <span class="button__icon button__icon_after knz-arrow-right"></span>
+                                       </span>
+                                       </button>
+                                    </div>
+                                 </div>
+                                 <!-- - submit -->
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
             </main>
             <footer class="footer pt-large" id="page-footer"   
                data-arts-fixed-reveal="true"
@@ -587,7 +654,7 @@
                         <div class="col-md-6">
                            <div class="widget widget_text txt-right-d">
                               <div class="textwidget">
-                                 <a href="polityka-prywatnosci.html"><small>Polityka prywatności </small></a>
+                                 <a href="#"><small>Polityka prywatności </small></a>
                               </div>
                            </div>
                         </div>

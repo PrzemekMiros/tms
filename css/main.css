@@ -257,7 +257,7 @@ a:hover {
     --paragraph-min-font-size: 16;
     --paragraph-line-height: 1.8;
     --paragraph-letter-spacing: 0;
-    --paragraph-color-dark: #111;
+    --paragraph-color-dark: #555;
     --paragraph-color-light: #ffffff;
     --blockquote-max-font-size: 20;
     --blockquote-min-font-size: 14;
@@ -9865,6 +9865,7 @@ select {
 #page-header .menu>li a {
     display: block;
     padding: 0.5em 1em;
+    margin: 0 2rem;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
@@ -9874,7 +9875,6 @@ select {
 #page-header .menu .menu-item-has-children {
     position: relative
 }
-
 #page-header .menu .menu-item-has-children>a:hover~ul {
     opacity: 1;
     visibility: visible;
@@ -11237,15 +11237,15 @@ select {
 }
 
 .line-y-2::before {
-    top: 720px;
+    top: 670px;
     left: 0px;
     height: 90px;
 }
 
 .line-y-3::before {
-    top: 516px;
+    top: 670px;
     left: 0px;
-    height: 487px;
+    height: 90px;
 }
 
 .line-y-4::before {
@@ -11396,7 +11396,7 @@ select {
         margin-left: -26%;
     }
     .js-fixed-reveal-spacer {
-        z-index: -2!important;
+        z-index: 1!important;
 }
 }
 
@@ -11532,5 +11532,12 @@ select {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
+   }
+   .txt-right-d {
+       text-align: right;
+   }
+   .justify-content-end-d {
+       display: flex;
+       justify-content: right;
    }
 } 
