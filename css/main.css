@@ -184,7 +184,7 @@ a:hover {
     --color-gray-2: #cccccc;
     --color-gray-3: #888888;
     --color-gray-4: #e8e8e8;
-    --color-accent-1: #ff4534;
+    --color-accent-1: #0C76F5;
     --color-portfolio-1: #f1f6f6;
     --color-portfolio-2: #262626;
     --color-portfolio-3: #f6f6f1;
@@ -5985,6 +5985,8 @@ div.wpcf7-acceptance-missing {
 }
 
 .logo__wrapper-img img {
+    height: 78px;
+    width: auto;
     transition: all 0.2s ease-in-out;
     display: block
 }
@@ -9057,7 +9059,7 @@ select {
 
 .header {
     pointer-events: none;
-    padding-top: calc(var(--gutter-vertical) / 1.5)
+    padding-top: 35px
 }
 
 .header a,
