@@ -47,7 +47,7 @@ img {
 
 a {
     text-decoration: none;
-    color: var(--color-gray-3);
+    color: var(--color-dark-3);
     transition: all 0.2s ease-in-out
 }
 
@@ -5985,7 +5985,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .logo__wrapper-img img {
-    height: 78px;
+    height: 58px;
     width: auto;
     transition: all 0.2s ease-in-out;
     display: block
@@ -9867,7 +9867,7 @@ select {
 #page-header .menu>li a {
     display: block;
     padding: 0.5em 1em;
-    margin: 0 2rem;
+    margin: 0 1.2rem;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
@@ -9885,7 +9885,7 @@ select {
 }
 
 #page-header .menu>li>a {
-    background-image: linear-gradient(currentColor, currentColor);
+    background-image: linear-gradient(#00a0dd, #0c76f5);
     background-position: calc(100% - 1em) calc(100% - 0.25em);
     background-repeat: no-repeat;
     background-size: 0% 2px;
