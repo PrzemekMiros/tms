@@ -9858,7 +9858,7 @@ select {
 #page-header .menu>li a {
     display: block;
     padding: 0.5em 1em;
-    margin: 0 1.2rem;
+    margin: 0 .6rem;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;

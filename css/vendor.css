@@ -85,8 +85,8 @@
  }
  @media(min-width:768px) {
     .row>* {
-        padding-right: calc(60px / 2);
-        padding-left: calc(60px / 2);
+        padding-right: calc(30px / 2);
+        padding-left: calc(30px / 2);
     }
  }
  
