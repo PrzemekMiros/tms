@@ -7000,9 +7000,7 @@
      .d-lg-inline-block {
          display: inline-block !important
      }
-     .d-lg-block {
-         display: block !important
-     }
+
      .d-lg-grid {
          display: grid !important
      }
@@ -7521,6 +7519,9 @@
      .d-xl-none {
          display: none !important
      }
+     .d-lg-block {
+        display: block !important
+    }
      .flex-xl-fill {
          flex: 1 1 auto !important
      }

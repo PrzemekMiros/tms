@@ -211,13 +211,13 @@ a:hover {
     --xl-letter-spacing: -2;
     --xl-color-dark: #111;
     --xl-color-light: #ffffff;
-    --h1-max-font-size: 68;
+    --h1-max-font-size: 58;
     --h1-min-font-size: 40;
     --h1-line-height: 1.2;
     --h1-letter-spacing: -1;
     --h1-color-dark: #111;
     --h1-color-light: #ffffff;
-    --h2-max-font-size: 52;
+    --h2-max-font-size: 46;
     --h2-min-font-size: 30;
     --h2-line-height: 1.28;
     --h2-letter-spacing: 0;
@@ -9443,7 +9443,7 @@ select {
     margin-bottom: auto
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1200px) {
     .header__burger {
         width: 32px;
         height: 32px;
