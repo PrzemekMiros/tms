@@ -11402,19 +11402,22 @@ select {
 }
 }
 
-/* Neon font
+/* Triangles
 -------------------------------------------- */
 
-.letters {
-    margin-bottom: -355px;
+.triangle-1 {
+    position: relative;
 }
-.letters svg {
-    width: 75%;
-    height: 100%;
+.triangle-1::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    background: var(--color-accent-1);
 }
-.letters img {
-    width: 35%;
-}
+
 
 /* Minus margin
 -------------------------------------------- */
@@ -11541,5 +11544,8 @@ select {
    .justify-content-end-d {
        display: flex;
        justify-content: right;
+   }
+   .desk-none {
+       display: none;
    }
 } 
