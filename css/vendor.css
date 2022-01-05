@@ -15345,17 +15345,13 @@
      -webkit-font-smoothing: antialiased;
      text-rendering: optimizeLegibility;
      -moz-osx-font-smoothing: grayscale;
-     font-feature-settings: 'liga'
+     transform: translateY(-3px);
  }
  
  .elementor-editor-active .select2-container .material-icons {
      font-size: inherit
  }
- 
- .material-icons.3d_rotation:before {
-     content: '\e84d'
- }
- 
+
  .material-icons.ac_unit:before {
      content: '\eb3b'
  }
