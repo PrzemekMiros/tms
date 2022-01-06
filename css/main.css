@@ -47,7 +47,7 @@ img {
 
 a {
     text-decoration: none;
-    color: var(--color-dark-3);
+    color: var(--color-dark-1);
     transition: all 0.2s ease-in-out
 }
 
@@ -172,7 +172,7 @@ a:hover {
     --bs-gutter-x: 20px;
     --bs-gutter-y: 20px;
     --font-primary: "Montserrat", sans-serif;
-    --color-dark-1: #000000;
+    --color-dark-1: #08192b;
     --color-dark-2: #181818;
     --color-dark-3: #333333;
     --color-dark-4: #555555;
@@ -191,55 +191,55 @@ a:hover {
     --xxl-min-font-size: 54;
     --xxl-line-height: 1;
     --xxl-letter-spacing: -4;
-    --xxl-color-dark: #111;
+    --xxl-color-dark: #08192b;
     --xxl-color-light: #ffffff;
     --xl-max-font-size: 102;
     --xl-min-font-size: 46;
     --xl-line-height: 1.18;
     --xl-letter-spacing: -2;
-    --xl-color-dark: #111;
+    --xl-color-dark: #08192b;
     --xl-color-light: #ffffff;
     --h1-max-font-size: 58;
     --h1-min-font-size: 40;
     --h1-line-height: 1.2;
     --h1-letter-spacing: -1;
-    --h1-color-dark: #111;
+    --h1-color-dark: #08192b;
     --h1-color-light: #ffffff;
     --h2-max-font-size: 46;
     --h2-min-font-size: 30;
     --h2-line-height: 1.28;
     --h2-letter-spacing: 0;
-    --h2-color-dark: #111;
+    --h2-color-dark: #08192b;
     --h2-color-light: #ffffff;
     --h3-max-font-size: 30;
     --h3-min-font-size: 24;
     --h3-line-height: 1.5;
     --h3-letter-spacing: 0;
-    --h3-color-dark: #111;
+    --h3-color-dark: #08192b;
     --h3-color-light: #ffffff;
     --h4-max-font-size: 24;
     --h4-min-font-size: 18;
     --h4-line-height: 1.8;
     --h4-letter-spacing: 0;
-    --h4-color-dark: #111;
+    --h4-color-dark: #08192b;
     --h4-color-light: #ffffff;
     --h5-max-font-size: 18;
     --h5-min-font-size: 16;
     --h5-line-height: 1.8;
     --h5-letter-spacing: 0;
-    --h5-color-dark: #111;
+    --h5-color-dark: #08192b;
     --h5-color-light: #ffffff;
     --h6-max-font-size: 16;
     --h6-min-font-size: 14;
     --h6-line-height: 1.8;
     --h6-letter-spacing: 0;
-    --h6-color-dark: #111;
+    --h6-color-dark: #08192b;
     --h6-color-light: #ffffff;
     --subheading-max-font-size: 13;
     --subheading-min-font-size: 10;
     --subheading-line-height: 1;
     --subheading-letter-spacing: 2;
-    --subheading-color-dark: #111;
+    --subheading-color-dark: #08192b;
     --subheading-color-light: #b0b0b0;
     --paragraph-max-font-size: 18;
     --paragraph-min-font-size: 16;
@@ -250,11 +250,11 @@ a:hover {
     --blockquote-max-font-size: 20;
     --blockquote-min-font-size: 14;
     --blockquote-letter-spacing: 0;
-    --blockquote-color-dark: #111;
+    --blockquote-color-dark: #08192b;
     --blockquote-color-light: #ffffff;
     --dropcap-max-font-size: 90;
     --dropcap-min-font-size: 60;
-    --dropcap-color-dark: #111111;
+    --dropcap-color-dark: #08192b;
     --dropcap-color-light: #ffffff;
     --distance-min-xsmall: 30;
     --distance-min-small: 40;
@@ -973,14 +973,14 @@ a:hover {
 }
 
 .arts-cursor {
-    color: #f27461;
+    color: #08192b;
     display: none
 }
 
 .arts-cursor__stroke-inner,
 .arts-cursor__stroke-outer {
     stroke-width: 2px;
-    stroke: #ed4830
+    stroke: #08192b
 }
 
 .arts-cursor__label {
@@ -7441,7 +7441,9 @@ small,
     font-size: calc(var(--subheading-min-font-size) * 1px);
     color: var(--subheading-color-dark);
     text-transform: uppercase;
-    letter-spacing: calc(var(--subheading-letter-spacing) * 1px)
+    letter-spacing: calc(var(--subheading-letter-spacing) * 1px);
+    margin-top: 14px;
+    margin-left: 3px;  
 }
 
 @media screen and (min-width: 320px) {
@@ -10227,7 +10229,7 @@ select {
 .section-list__item {
     display: flex;
     align-items: center;
-    margin-bottom: 2em
+    margin-bottom: 1.6em
 }
 
 .section-list__item:last-child {
@@ -10271,7 +10273,7 @@ select {
 
 .section-list__counter .svg-circle {
     stroke-width: 1px;
-    stroke: var(--color-border-dark);
+    stroke: var(--color-dark-2);
     position: absolute;
     top: 0;
     left: 0;
