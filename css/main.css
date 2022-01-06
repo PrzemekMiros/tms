@@ -8647,7 +8647,7 @@ td:last-child {
     height: 1em;
     vertical-align: middle;
     margin-right: 0.5em;
-    background-color: var(--color-accent-1);
+    background-color: #00A0DD5C;
     border-radius: 5px;
 }
 
